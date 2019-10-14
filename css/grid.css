@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   /* background-image: url("../graph_city.jpg")*/
+    }
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: ". intro ."
+                         ". main .";
+    grid-gap: 10px;
+    width: 100%;
+    align-items: start;
+   /* grid-template-areas: "header header header header header header header header header header header header"
+                         "outerleft innerleft midleft midleft intro intro intro intro intro midright innerright outerright"
+                         "outerleft innerleft example example example example example example example example example innerright outerright";
+                         */
+   /* grid-template-areas: " header header header header header header header header header header header header"
+    " . . . . sbottomtreet_text street_text mainpic mainpic . . . . "
+    " . .  pic1specs pic1specs pic2specs pic2specs pic3specs pic3specs pic4specs pic4specs . ."*/
+}
+
+header {
+    display: grid;
+    width: 100%;
+    background-color: #000000;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+ h1 {
+     color: white;
+     text-align: center;
+
+    /* padding-top: 30px;
+     padding-bottom: auto;*/
+     padding: auto;
+     margin: auto;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 30px;
+    grid-gap: 25px;
+
+}
+.introtext {
+   /* grid-area: 1 / 2 / 1 / 3;*/
+    grid-column-start: 2 ;
+    text-align: center;
+    font-size: 14px;
+}
+h2 {
+    font-size: 24px;
+}
+
+.intropic {
+   /* grid-area: 1 / 2 / 1 / 3;*/
+
+
+}
+
+
+.otherstuff {
+   display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 80px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.otherstuff img {
+    margin-bottom: 30px;
+    width:80%;
+
+}
+
+
+#imagetop {
+    width: 100%;
+}
+
+img {
+  width: 100%;
+  /*  margin-bottom: 20px;*/
+}
+
+#abc {
+    grid-column-start: 2;
+}
+
+
