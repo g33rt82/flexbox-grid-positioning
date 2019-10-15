@@ -4,3 +4,31 @@
     box-sizing: border-box;
 }
 
+header {
+    width: 100%;
+    background-color: #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.intro {
+    display: flex;
+    max-width: 960px;
+    justify-content: space-around;
+    margin: 50px auto 30px auto;
+    /*border: 1px solid red;*/
+}
+
+.introtext {
+    max-width: 400px;
+    text-align: center;
+}
+#imagetop {
+    max-width: 400px;
+}

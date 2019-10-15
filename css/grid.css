@@ -10,7 +10,7 @@ body {
     }
 
 
-.gridcontainer {
+/*.gridcontainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -19,14 +19,14 @@ body {
     grid-gap: 10px;
     width: 100%;
     align-items: start;
-   /* grid-template-areas: "header header header header header header header header header header header header"
+    grid-template-areas: "header header header header header header header header header header header header"
                          "outerleft innerleft midleft midleft intro intro intro intro intro midright innerright outerright"
                          "outerleft innerleft example example example example example example example example example innerright outerright";
                          */
    /* grid-template-areas: " header header header header header header header header header header header header"
     " . . . . sbottomtreet_text street_text mainpic mainpic . . . . "
-    " . .  pic1specs pic1specs pic2specs pic2specs pic3specs pic3specs pic4specs pic4specs . ."*/
-}
+    " . .  pic1specs pic1specs pic2specs pic2specs pic3specs pic3specs pic4specs pic4specs . ."
+}*/
 
 header {
     display: grid;
@@ -49,7 +49,7 @@ header {
 
 .intro {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns:repeat(4, 1fr);
     margin-bottom: 30px;
     grid-gap: 25px;
 
